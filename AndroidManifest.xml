@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is part of TumixMatrixOperator.
+TumixMatrixOperator is free software: you can redistribute it and/or modify
+it under the terms of the GNU Lesser General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+TumixMatrixOperator is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with TumixMatrixOperator.  If not, see <http://www.gnu.org/licenses/>.
+-->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.tumix.MO"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <application
+        android:icon="@drawable/tumix"
+        android:label="@string/app_name"
+        android:theme="@style/mytheme" >
+        <activity android:name=".acts.Main" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".acts.FillMatrix" >
+        </activity>
+        <activity
+            android:name=".acts.Matrizes"
+            android:label="@string/selectingmatrix"
+            android:theme="@android:style/Theme.Dialog" >
+        </activity>
+        <activity android:name=".acts.OperateMatrizes" >
+        </activity>
+        <activity android:name=".acts.OperateExponentiation" >
+        </activity>
+        <activity android:name=".acts.OperateDeterminant" >
+        </activity>
+        <activity android:name=".acts.SolveSystem" >
+        </activity>
+        <activity android:name=".acts.InvertMatrix" >
+        </activity>
+    </application>
+
+</manifest>

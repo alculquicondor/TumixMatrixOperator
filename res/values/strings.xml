@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is part of TumixMatrixOperator.
+TumixMatrixOperator is free software: you can redistribute it and/or modify
+it under the terms of the GNU Lesser General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+TumixMatrixOperator is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with TumixMatrixOperator.  If not, see <http://www.gnu.org/licenses/>.
+-->
+<resources>
+
+    <string name="hello">Hello World, Main!</string>
+    <string name="app_name">Tumix Matrix Operator</string>
+    <string name="filling_matrix">Llenando la matriz: </string>
+    <string name="fillmatrix_title">Llenando Matriz</string>
+    <string name="principalmenu">Menú Principal</string>
+    <string name="editmatrizesbutton">Editar Matrices</string>
+    <string name="selectingmatrix">Seleccione la matriz a editar:</string>
+    <string name="nrows"># Filas:</string>
+    <string name="ncolumns"># Columnas:</string>
+    <string name="generatematrix">Generar Matriz</string>
+    <string name="Error_SelectMatrix">Error: Debe seleccionar una matriz.</string>
+    <string name="ok">Aceptar</string>
+    <string name="Error_LargeMatrix">Error: La matriz debe ser menor a 20x20</string>
+    <string name="Success_MatrixActualization">Matriz Actualizada con Éxito</string>
+    <string name="operations">Operaciones:</string>
+    <string name="operationtobedone">Operación a realizar:</string>
+    <string name="calculate">Calcular</string>
+    <string name="adding">Suma</string>
+    <string name="SelectMatrix">Seleccione una matriz:</string>
+
+    <string-array name="matrizes_array">
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+    </string-array>
+
+    <string name="Error_SelectMatrizesOperator">Error: Debe seleccionar las matrices que desea operar.</string>
+    <string name="Error_SizesImcompatibility">Error: Tamaño de las matrices incompatible para
+		esta operación.</string>
+    <string name="Note_ResultingMatrixnotSaved">Nota: La matriz resultante no ha sido guardada,
+		pues no se ha llenado el campo de resultado"</string>
+    <string name="subtraction">Resta</string>
+    <string name="multiplication">Multiplicación</string>
+    <string name="Error_invalidstring">Error: Se ha introducido un valor no numérico. Será
+		considerado como 0 (cero). ¿Desea continuar?</string>
+    <string name="yes">Sí</string>
+    <string name="no">No</string>
+    <string name="Error_putanindex">Error: Debe digitar un exponente.</string>
+    <string name="Error_MatrixNotSquare">rror: La matriz a elevar debe ser cuadrada.</string>
+    <string name="exponentiation">Exponenciación</string>
+    <string name="determinant">Determinante</string>
+    <string name="systemofequations">Sistema de Ecuaciones:</string>
+    <string name="solve">Resolver</string>
+    <string name="Error_CoeficientsMatrixNotSquare">Error: La matriz de coeficientes debe ser cuadrada.</string>
+    <string name="Error_CoeficientsMatrixSingular">Error: La matriz de coeficientes es singular.</string>
+    <string name="SystemOfLinearEquations">Sistemas de Ecuaciones Lineales</string>
+    <string name="inversion">Inversión</string>
+    <string name="Error_MatrixSingular">Error: La matriz es singular.</string>
+
+</resources>

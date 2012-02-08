@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is part of TumixMatrixOperator.
+TumixMatrixOperator is free software: you can redistribute it and/or modify
+it under the terms of the GNU Lesser General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+TumixMatrixOperator is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with TumixMatrixOperator.  If not, see <http://www.gnu.org/licenses/>.
+-->
+<resources>
+
+    <style name="mybutton" parent="@android:style/Widget.Button">
+        <item name="android:background">@drawable/mybutton</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="WindowTitleBackground">
+        <item name="android:background">@drawable/mytitlebar</item>
+    </style>
+
+    <style name="mytheme" parent="@android:style/Theme.Black">
+        <item name="android:buttonStyle">@style/mybutton</item>
+        <item name="android:windowTitleBackgroundStyle">@style/WindowTitleBackground</item>
+    </style>
+
+</resources>
