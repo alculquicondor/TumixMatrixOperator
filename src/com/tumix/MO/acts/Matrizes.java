@@ -41,7 +41,6 @@ public class Matrizes extends ListActivity implements OnItemClickListener {
 		lv.setOnItemClickListener(this);
 	}
 
-	@Override
 	public void onItemClick(AdapterView<?> parent, View view, int position,
 			long id) {
 		Intent llamada = new Intent();
